@@ -9,6 +9,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100%;
 }
 
 .bg1{
@@ -88,35 +89,36 @@ li a {
 }
 
 ul {
+    display:inline-block;
 	list-style: none;
     position:relative;
     font-family:Tahoma;
-    font-size: 150%;		
-    padding: 0;
-    margin: 0;
-    top:5%;
-    left:2%;
-	width: 300px;
-    padding-left: 10px;
-    margin-left: -15px;
+    font-size: 1.6vw;		
+    top:0%;
+    left:3%;
+	width: 19.75%;
+    padding-left: 1%;
+    margin-left: -2%;
+    text-align: center;
+    line-height: 170%;
 }
 
 
 li div:first-child {
-		padding: .5em 0 0 1em;
-		width: 1.5em;
-		height: 2em;
-		border: solid 3px #248067;
-		border-radius: 2em;
+    padding: 0.5vw 0 0 0.5vw;
+		width: 3.2vw;
+		height: 3.2vw;
+		border: solid 0.2vw #248067;
+		border-radius: 50%;
 		color: #248067;
 		transition: all 0.5s ease-in-out;
 }
 
 li div:last-child {
 		position: relative;
-		top: -2em;
-		left: 3em;
-		width: 6.5em;
+		top: -3.0vw;
+		left: 5vw;
+		width: 8vw;
 }
 
 li:hover div:first-child {
@@ -164,11 +166,9 @@ ul, li {
 }
 
 .win{
-    width: 1214px;
-    height: 711px;
-    margin-top: -288px;
-    margin-left: 317px;
-    margin-right: 0px;
+    display: inline-block;
+    width: 70.9%;
+    height: 100%;
     background-color:rgba(98, 73, 65, 0.4);
     font-family: Microsoft YaHei;
 }
@@ -188,92 +188,113 @@ ul, li {
 }
 
 .hei{
-    margin-top: 40px;
+    margin-top: 3%;
 }
 
 .tag1{
     display: inline-block;
     background-color:#248067 ;
-    width: 26px;
-    height: 35px;
+    width: 2.5%;
+    height: 2.4vw;
 }
 
 .tag2{
-    font-size: 150%;
+    font-size: 1.5vw;
     font-family: Microsoft YaHei;
 }
 
 .item{
     display: inline-block;
-    width: 350px;
-    margin-right: 0px;
-    margin-left: 160px;
-    margin-top: 20px;
+    width: 31%;
+    margin-left: 15%;
+    margin-top: 3%;
 }
 
 .itemname{
  display: inline-block;
- width: 100px;
- height: 40px;
- line-height: 60px;
- border-bottom:3px #12a182 dotted;
+ width: 26%;
+ height: 5vh;
+ line-height: 308%;
+ border-bottom:0.2vw #12a182 dotted;
  text-align: left;
  color: #c4d7d6;
- font-size: 110%;
+ font-size: 1.1vw;
  font-family: SimHei;
 }
 
+a.hua{
+    text-decoration: none;
+}
+
+a.hua:link {
+    color: wheat;
+  }
+  
+  a:visited {
+    color:black;
+  }
+ 
+  a:hover {
+    color:cornflowerblue;
+  }
+
 .itemvalue{
     display: inline-block;
-    width: 220px;
-    height: 40px;
-    line-height: 60px;
+    width: 70%;
+    height: 5vh;
+    line-height: 308%;
     border-bottom:3px #12a182 dotted;
     text-align: right;
     color: black;
-    font-size: 105%;
+    font-size: 1.1vw;
     font-family: SimHei;
 }
 
 .myimg{
     display:inline-block;
     background-image: url("img/wallhaven-nk82y1_500x300.png");
-    width: 240px;
-    height: 300px;
+    width: 21%;
+    height: 19vw;
     background-repeat: no-repeat;
-    border-radius: 50px;
-    margin-left: 30px;
-    margin-top: 20px;
+    border-radius: 20%;
+    margin-left: 3%;
+    margin-top: 2%;
 }
 
 .intro{
     display: inline-block;
-    width: 850px;
-    margin-left: 30px;
-    margin-top: 0px;
+    width: 60%;
+    margin-left: 4%;
     text-indent: 2em;
-    letter-spacing: 1.5px;
-    line-height: 33px;
-    padding: 10px;
-    border-radius: 20px;
+    letter-spacing:1%;
+    line-height: 120%;
+    padding: 2%;
+    border-radius: 10%;
+    font-size:1.2vw;
     background-color: rgba(229, 223, 192, 0.2);
 }
 
 .music1{
     display: inline-block;
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
-    margin-top: 5px;
-    margin-left: 30px;
-    margin-right: 70px;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 10vw;
+    margin-top: 0.2%;
+    margin-left: 4.5%;
+    margin-right: 2%;
 }
 
 .music2{
     display: inline-block;
-    width: 300px;
-    margin-left: 31px;
-    margin-right: 70px;
+    width: 20vw;
+    margin-left: 4.5%;
+    margin-right: 2%;
+}
+.music3{
+    display: inline-block;
+    width: 20vw;
+    margin-left: 24%;
+    margin-right: 2%;
 }
 .m1{
     background-image: url("img/T002R500x500M000003JqGSX06gXks.jpg");
@@ -336,37 +357,33 @@ ul, li {
 }
 
 .win1{
-    width: 1214px;
-    height: 700px;
-    margin-top: -705px;
-    margin-left: 317px;
-    margin-right: 0px;
+    display: inline-block;
+    width: 70.9%;
+    height: 100%;
     font-family: "YouYuan","Microsoft YaHei";
     background-color: rgba(0,0,0,0.3);
     text-indent: 2em;
 }
 
 .win2{
-    width: 500px;
-    height: 715px;
-    margin-top: -710px;
-    margin-left: 550px;
-    margin-right: 0px;
+    display: inline-block;
+    width: 70.9%;
+    height: 100%;
     font-family:"FZYaoti","Microsoft YaHei";
     background-color: rgba(0,0,0,0.3);
     text-align:center;
 }
 
 .mur{
-    font-size: 140%;
-    line-height: 180%;
+    font-size: 1.3vw;
+    line-height: 200%;
     color: white;
     font-weight: 100;
     text-align: center;
 }
 
 .Cx{
-    font-size: 150%;
+    font-size: 1.6vw;
     line-height: 400%;
     color: white;
     font-weight: 100;
@@ -374,8 +391,8 @@ ul, li {
 }
 
 .moon{
-    font-size: 150%;
-    line-height: 145%;
+    font-size: 1.5vw;
+    line-height: 150%;
     color: white;
     font-weight: 100;
 }
