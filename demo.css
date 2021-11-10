@@ -106,8 +106,8 @@ ul {
 
 li div:first-child {
     padding: 0.5vw 0 0 0.5vw;
-		width: 3.2vw;
-		height: 3.2vw;
+		width: 3.5vw;
+		height: 3.5vw;
 		border: solid 0.2vw #248067;
 		border-radius: 50%;
 		color: #248067;
@@ -116,13 +116,15 @@ li div:first-child {
 
 li div:last-child {
 		position: relative;
-		top: -3.0vw;
+		top: -3.5vw;
 		left: 5vw;
 		width: 8vw;
 }
 
 li:hover div:first-child {
-		width: 10em;
+		width:15vw;
+        height:3.5vw;
+        border-radius: 15%;
 		text-align: left;
 		color: #248067;
 		background: #248067;
@@ -340,7 +342,7 @@ a.hua:link {
     text-align: center;
     font-size: 1.8vw;
     line-height: 2.5vw;
-    color:rgb(138, 153, 66);
+    color: white;
     font-family: KaiTi_GB2312;
 }
 
