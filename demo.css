@@ -47,7 +47,8 @@ html,body{
 
 }
 
-.headline{ position: absolute;
+.headline{ 
+    position: absolute;
     top: 24%;
     left: 24%;
     color:rgb(72,30,28);
@@ -94,7 +95,7 @@ ul {
     position:relative;
     font-family:Tahoma;
     font-size: 1.6vw;		
-    top:0%;
+    top:20%;
     left:3%;
 	width: 19.75%;
     padding-left: 1%;
@@ -111,7 +112,7 @@ li div:first-child {
 		border: solid 0.2vw #248067;
 		border-radius: 50%;
 		color: #248067;
-		transition: all 0.5s ease-in-out;
+		transition: all 0.2s ease-in-out;
 }
 
 li div:last-child {
@@ -124,7 +125,7 @@ li div:last-child {
 li:hover div:first-child {
 		width:15vw;
         height:3.5vw;
-        border-radius: 15%;
+        border-radius: 20%;
 		text-align: left;
 		color: #248067;
 		background: #248067;
@@ -177,16 +178,33 @@ ul, li {
 
 .border{
     display: inline-block;
-    margin-top: -10%;
-    margin-left: 80%;
+    height: 93.8%;
+    margin-left: 85%;
+    margin-top: -30.1%;
     padding-left: 2%;
     padding-right: 2%;
-    border-left:0.15vw #248067 solid;
-    border-right: 0.15vw #248067 solid;
-    font-size: 2.5vw;
-    font-family: KaiTi_GB2312;
-    font-weight:1000;
-    color:black;
+    padding-top: 3%;
+    font-size: 3.0vw;
+    font-family: YaHei;
+    font-weight:lighter;
+    background-color: rgba(8, 8, 8, 0.3);
+    color:white;
+}
+
+
+
+.avi{
+    display: inline-block;
+    width: 10%;
+    height:20%;
+    margin-left: -17%;
+    margin-right: 25%;
+    margin-top: 25%;
+    margin-bottom: -8%;
+    border-radius:50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 
 .hei{
@@ -278,48 +296,46 @@ a.hua:link {
 
 .music1{
     display: inline-block;
-    width: 20vw;
-    height: 20vw;
+    width: 16.3vw;
+    height: 16.3vw;
     border-radius: 10vw;
-    margin-top: 0.2%;
-    margin-left: 4.5%;
+    margin-top: 0%;
+    margin-left: 7%;
     margin-right: 2%;
 }
 
 .music2{
     display: inline-block;
-    width: 20vw;
+    width: 19.6vw;
     margin-left: 4.5%;
-    margin-right: 2%;
+    margin-top: 2%;
+    margin-top: 2%;
+    text-align: center ;
+    color:aliceblue;
 }
-.music3{
-    display: inline-block;
-    width: 20vw;
-    margin-left: 24%;
-    margin-right: 2%;
-}
+
 .m1{
-    background-image: url("img/T002R500x500M000003JqGSX06gXks.jpg");
+    background-image: url("img/wallhaven-9m9p1x_250x250.png");
 }
 
 .m2{
-    background-image: url("img/src=http\ _wsingbssdl.kugou.com_4034de728f42205335eaec771981aee5.png&refer=http\ _wsingbssdl.kugou.com&app=2002&size=f9999\,10000&q=a80&n=0&g=0n&fmt=jpeg.jpg");
+    background-image: url("img/wallhaven-m9gky9_250x250.png");
 }
 
 .m3{
-    background-image: url("img/cardigan\ \(cabin\ in\ candlelight\ version\)_109951165.jpg");
+    background-image: url("img/wallhaven-q2o25r_250x250.png");
 }
 
 .m4{
-    background-image: url("img/1911167978.jpg");
+    background-image: url("img/wallhaven-k7lqeq_300x300.png");
 }
 
 .m5{
-    background-image: url("img/src=http\ _aliimg.changba.com_cache_photo_083fe1fc-5027-4410-b902-06dbdd86f401_640_640.jpg&refer=http\ _aliimg.changba.com&app=2002&size=f9999\,10000&q=a80&n=0&g=0n&fmt=jpeg.jpg");
+    background-image: url("img/wallhaven-3z2r23_300x300.png");
 }
 
 .m6{
-   background-image: url("img/src=http---i0.hdslb.com-bfs-archive-cb86efc639d5734399ee1351c8e57d89e33d0892.jpg&refer=http---i0.hdslb.jpg");
+   background-image: url("img/wallhaven-wqdglr_350x350.png");
 }
 
 .book{
@@ -328,8 +344,9 @@ a.hua:link {
     height: 60%;
     margin-left: 5.5%;
     margin-right: 5.5%;
-    margin-top: 5%;
+    margin-top: 2%;
     border-radius: 5%;
+    box-shadow:1px 2px 10px black;
 }
 
 .bname{
@@ -338,7 +355,7 @@ a.hua:link {
     width: 21%;
     margin-left: 5.5%;
     margin-right: 5.5%;
-    margin-top: 1%;
+    margin-top: 0.2%;
     text-align: center;
     font-size: 1.8vw;
     line-height: 2.5vw;
@@ -347,7 +364,7 @@ a.hua:link {
 }
 
 .bo1{
-    background-image: url("img/wallhaven-q2ro5q_1280x720.png");
+    background-image: url("img/wallhaven-o36mq7_1280x720.png");
 }
 
 .bo2{
@@ -355,25 +372,38 @@ a.hua:link {
 }
 
 .bo3{
-    background-image: url("img/wallhaven-8ogzwk_1280x720.png");
+    background-image: url("img/wallhaven-e76ge8_1600x900.png");
 }
 
 .win1{
     display: inline-block;
+    float:right;
     width: 70.9%;
     height: 100%;
     font-family: "YouYuan","Microsoft YaHei";
     background-color: rgba(0,0,0,0.3);
     text-indent: 2em;
+    margin-right: 8%;
 }
 
 .win2{
     display: inline-block;
+    float:right;
     width: 70.9%;
     height: 100%;
     font-family:"FZYaoti","Microsoft YaHei";
     background-color: rgba(0,0,0,0.3);
     text-align:center;
+    margin-right: 10%;
+}
+
+.win3{
+    display: inline-block;
+    width: 70.9%;
+    height: 100%;
+    background-color:rgba(98, 73, 65, 0.5);
+    font-family: Microsoft YaHei;
+    font-weight: 800;
 }
 
 .mur{
@@ -397,4 +427,18 @@ a.hua:link {
     line-height: 150%;
     color: white;
     font-weight: 100;
+}
+
+.ivy{
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 30%;
+    line-height: 3vw;
+    font-family: Century Gothic;
+    font-size: 2.2vw;
+    font-weight: normal;
+    color: rgb(3, 71, 64);
+    background-color:rgba(241, 241, 241, 0.2);
 }
